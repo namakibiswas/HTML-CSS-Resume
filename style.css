@@ -1,1 +1,47 @@
-/* Your CSS styles go here */
+
+* {
+
+  background-image: url("b.jpg");
+  background-repeat: no-repeat;
+
+}
+
+body {
+    background-color: #c2c2d6;
+    width: 1000px;
+    margin: auto;
+}
+
+h1{
+
+color: black;
+text-align: left;
+
+}
+img {
+
+}
+#edutable {
+  width: auto;
+}
+#edutablerow {
+
+  background-color:	#E6E6FA;
+
+}
+#cvimage {
+  float: right;
+  border-radius: 5px;
+  border-style: solid;
+  opacity: 1;
+}
+#myname {
+font-family: 'Playball', cursive;
+font-size: 60px;
+ text-shadow: 2px 2px;
+}
+#Email{
+  font-size: 20px;
+}
+<h3>Facebook :<a href="https://www.facebook.com/namaki.biswas">Visit my Facebook Profile</a>
+</div>

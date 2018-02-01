@@ -2,15 +2,31 @@
 * {
 
   background-image: url("b.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 
 }
 
 body {
     background-color: #c2c2d6;
-    width: 1000px;
+    width: 100%;
     margin: auto;
 }
+
+table, td, th {
+    border: 1px solid black ;
+    text-align: left;
+}
+  table {
+      border-collapse: collapse;
+      width: 60%;
+  }
+
+  th, td {
+      padding: 10px;
+      text-align: center;
+      border-bottom: 1px solid black;
+
+  }
 
 h1{
 
@@ -18,9 +34,7 @@ color: black;
 text-align: left;
 
 }
-img {
 
-}
 #edutable {
   width: auto;
 }
@@ -34,14 +48,35 @@ img {
   border-radius: 5px;
   border-style: solid;
   opacity: 1;
+  width: 350px;
+  height: 400px;
+  clear: both;
 }
 #myname {
 font-family: 'Playball', cursive;
 font-size: 60px;
  text-shadow: 2px 2px;
+ align: left;
 }
 #Email{
   font-size: 20px;
 }
-<h3>Facebook :<a href="https://www.facebook.com/namaki.biswas">Visit my Facebook Profile</a>
-</div>
+
+@media only screen and (max-width: 700px) {
+
+  #cvimage {
+    float: left;
+    border-radius: 5px;
+    border-style: solid;
+    opacity: 1;
+    width: 230px;
+    height: 220px;
+    clear: both;
+  }
+  body {
+      background-color: #c2c2d6;
+      width: auto;
+      margin: auto;
+  }
+
+}
